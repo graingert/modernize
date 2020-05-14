@@ -11,11 +11,11 @@ if not version_match:
 version = version_match.group(1)
 
 setup(
-    name='modernize',
+    name='modernize-fissix',
     author='Armin Ronacher',
     author_email='armin.ronacher@active-4.com',
     version=version,
-    url='https://github.com/python-modernize/python-modernize',
+    url='https://github.com/graingert/python-modernize',
     packages=['libmodernize', 'libmodernize.fixes'],
     py_modules=['modernize'],
     description='A hack on top of 2to3 for modernizing code for '
